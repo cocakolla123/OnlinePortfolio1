@@ -1,0 +1,213 @@
+body {
+    background: #e8e8e8;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(to right,rgba(0,0,0,0.9) ,rgba(0,0,0,0.9));
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -8;
+}
+
+.title {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.subtitle {
+    font-size: 50px; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+/*    color: white;*/
+    font-family: "BebasNeue-Bold"
+}
+
+.words {
+    font-size: 30px; 
+    padding-bottom: 15px;
+/*    color: white;*/
+    font-family: "BebasNeue-Book";
+    font-weight: 500;
+    line-height: 2.0;
+    width: 70%;
+}
+
+.huge-lettering {
+    font-size: 300px;
+    font-weight:700;
+    line-height: 100vh;
+    color: rgb(255, 17, 0, 0.7);
+    font-family: "BebasNeue-Bold";
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    font: "BebasNeue-Bold";
+    color: white;
+}
+
+
+.links {
+    position: fixed;
+    width: 4%;
+    margin-left: 96%;
+    z-index: 2;
+    height: 100%;
+    top: 25%;
+    bottom: 0;
+    vertical-align: middle;
+    align-self: center;
+    align-content: center;
+}
+
+.inside {
+    width: 100%;
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.body {
+    background-color: #e8e8e8;
+}
+
+.linkingproject {
+    line-height: 50vh; font-family: 'BebasNeue-Bold' ; color: white; text-align: center; font-size: 60px 
+}
+
+.footer {
+    background: #393939;
+    width: 100%;
+    padding: 75px 0 75px 0;
+    top: 0;
+}
+
+
+.project {
+    width: 32%;
+    border-radius: 15px;
+    margin-left: 1%;
+}
+
+/*
+.project: hover {
+    background-color: rgba(0,0,0,.7);
+}
+*/
+
+a.projects :hover {
+    text-decoration: none;
+}
+
+.projectcompound {
+    background: url(images/Project_compound.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.projectcompound:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/Project_compound.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.palm {
+    background: url(images/espalm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.maze {
+    background: url(images/MarbleMaze_closedbox.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.racer {
+    background: url(images/RecycleRacer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+.maze:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/MarbleMaze_closedbox.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.racer:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/RecycleRacer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+.palm:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/espalm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+}
+
+
+
+
+@font-face{
+    font-family:"Aileron-Thin";
+    src: url("Fonts/aileron/Aileron-Thin.eot");
+    src: url("Fonts/aileron/Aileron-Thin.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("Fonts/futura/Futura-CondensedLight.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "BebasNeue-Bold";
+    src: url("Fonts/BebasNeue/BebasNeue-Bold.eot");
+    src: url("Fonts/BebasNeue/BebasNeue-Bold.otf") format('opentype');
+}
+@font-face {
+    font-family: "BebasNeue-Light";
+    src: url("Fonts/BebasNeue/BebasNeue-Light.eot");
+    src: url("Fonts/BebasNeue/BebasNeue-Light.otf") format('opentype');
+}
+@font-face {
+    font-family: "BebasNeue-Book";
+    src: url("Fonts/BebasNeue/BebasNeue-Book.eot");
+    src: url("Fonts/BebasNeue/BebasNeue-Book.otf") format('opentype');
+}
+@font-face {
+    font-family: "Elianto";
+    src: url("Fonts/Elianto/Elianto-Regular.eot");
+    src: url("Fonts/Elianto/Elianto-Regular.otf") format('opentype');
+}
+@font-face {
+    font-family: "Bavro";
+    src: url("Fonts/Bavro/OTF/Bavro-Regular.eot");
+    src: url("Fonts/Bavro/OTF/Bavro-Regular.otf") format('opentype');
+}
