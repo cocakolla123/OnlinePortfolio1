@@ -97,7 +97,13 @@ body {
 }
 
 .linkingproject {
-    line-height: 50vh; font-family: 'BebasNeue-Bold' ; color: white; text-align: center; font-size: 60px 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'BebasNeue-Bold' ; 
+    color: white; 
+    text-align: center; 
+    font-size: 60px;  
 }
 
 .footer {
@@ -130,6 +136,9 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 .projectcompound:hover {
@@ -138,6 +147,10 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;
+        border-radius: 15px;
+        margin-top: 10px;
+
 }
 
 .palm {
@@ -146,6 +159,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 
 .maze {
@@ -154,6 +169,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 
 .racer {
@@ -162,6 +179,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 .maze:hover {
     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/MarbleMaze_closedbox.png");
@@ -169,6 +188,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 
 .racer:hover {
@@ -177,6 +198,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 
 .palm:hover {
@@ -185,6 +208,8 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
+
 }
 
 
