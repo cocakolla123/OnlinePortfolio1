@@ -61,8 +61,9 @@ body {
     font-weight:700;
     position: absolute;
     top: 50%;
+    width: 90%;
     text-align: center;
-    transform: translateY(-50%) translateX(40%);
+    transform: translateY(-50%);
     color: rgb(255, 17, 0, 0.7);
     font-family: "BebasNeue-Bold";
     
