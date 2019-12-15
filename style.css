@@ -80,12 +80,8 @@ body {
     width: 4%;
     margin-left: 96%;
     z-index: 2;
-    height: 100%;
-    top: 25%;
-    bottom: 0;
-    vertical-align: middle;
-    align-self: center;
-    align-content: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .inside {
