@@ -63,10 +63,9 @@ body {
     top: 50%;
     width: 90%;
     text-align: center;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     color: rgb(255, 17, 0, 0.7);
     font-family: "BebasNeue-Bold";
-    
 }
 
 .projects {
