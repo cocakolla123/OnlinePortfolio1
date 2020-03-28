@@ -82,12 +82,14 @@ body {
     z-index: 2;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 .inside {
     width: 100%;
     margin-top: 15px;
     vertical-align: middle;
+    text-shadow: 0 0 3px #FF0000;
 }
 
 .body {
@@ -130,6 +132,27 @@ a.projects :hover {
     text-decoration: none;
 }
 
+.winch {
+    background: url("images/winch.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.winch:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/winch.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
 .projectcompound {
     background: url(images/Project_compound.png);
     background-position: center;
@@ -147,10 +170,9 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
-        height: 50vh;
-        border-radius: 15px;
-        margin-top: 10px;
-
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 .palm {
