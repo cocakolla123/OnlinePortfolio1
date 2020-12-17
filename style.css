@@ -154,6 +154,48 @@ a.projects :hover {
     margin-top: 10px;
 }
 
+.mazememory {
+    background: url("images/mazegame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.mazememory:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/mazegame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.contagion {
+    background: url("images/mazegame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.contagion:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/mazegame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
 .projectcompound {
     background: url(images/Project_compound.png);
     background-position: center;
