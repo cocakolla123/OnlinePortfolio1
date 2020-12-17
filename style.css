@@ -176,7 +176,7 @@ a.projects :hover {
 }
 
 .contagion {
-    background: url("images/mazegame.png");
+    background: url("images/contagion1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -186,7 +186,7 @@ a.projects :hover {
     margin-top: 10px;
 }
 .contagion:hover {
-    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/mazegame.png");
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/contagion1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
