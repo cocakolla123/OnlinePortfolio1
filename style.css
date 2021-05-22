@@ -234,10 +234,18 @@ a.projects :hover {
     background-repeat: no-repeat;
     background-size: cover; 
     background-origin: content-box;
-        height: 50vh;border-radius: 15px;margin-top: 10px;
+    height: 50vh;border-radius: 15px;margin-top: 10px;
 
 }
+.entrep {
+    background: url(images/entrep.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+    height: 50vh;border-radius: 15px;margin-top: 10px;
 
+}
 .racer {
     background: url(images/RecycleRacer.png);
     background-position: center;
@@ -256,7 +264,15 @@ a.projects :hover {
         height: 50vh;border-radius: 15px;margin-top: 10px;
 
 }
+.entrep:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/entrep.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-origin: content-box;
+        height: 50vh;border-radius: 15px;margin-top: 10px;
 
+}
 .racer:hover {
     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))  , url("images/RecycleRacer.png");
     background-position: center;
